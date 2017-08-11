@@ -1,0 +1,51 @@
+{ 
+   "gatewayMessage":{ 
+      "gatewayID":"113971",
+      "gatewayName":"CGW2 Verizon - 113971",
+      "accountID":"9096",
+      "networkID":"15148",
+      "messageType":"0",
+      "power":"0",
+      "batteryLevel":"101",
+      "date":"2017-04-30 18:07:16",
+      "count":"22",
+      "signalStrength":"18",
+      "pendingChange":"False"
+   },
+   "sensorMessages":[ 
+      {  
+         "sensorID":"131739",
+         "sensorName":"V - S-22 - Water Main Vibration Sensor",
+         "applicationID":"95",
+         "networkID":"15148",
+         "dataMessageGUID":"c705d208-017e-4318-9284-58ffbe5ddb77",
+         "state":"0",
+         "messageDate":"2017-04-30 17:55:34",
+         "rawData":"2.9%7c2.2%7c0.4%7c6%7c37%7c187%7c6%7c0",
+         "dataType":"Speed|Speed|Speed|Frequency|Frequency|Frequency|Percentage",
+         "dataValue":"2.9|2.2|0.4|6|37|187|6",
+         "plotValues":"2.9|2.2|0.4|6|37|187|6",
+         "plotLabels":"X-Axis Speed|Y-Axis Speed|Z-Axis Speed|X-Axis Frequency|Y-Axis Frequency|Z-Axis Frequency|Duty Cycle",
+         "batteryLevel":"100",
+         "signalStrength":"94",
+         "pendingChange":"True"
+      },
+      {  
+         "sensorID":"138797",
+         "sensorName":"H - S-42 - Humidity - Walk-in Refrigerator Homemade in Basement",
+         "applicationID":"43",
+         "networkID":"15148",
+         "dataMessageGUID":"8294d396-cf32-4bec-af2a-c0143b7b674c",
+         "state":"0",
+         "messageDate":"2017-04-30 17:52:14",
+         "rawData":"89.38%2c8.16",
+         "dataType":"Percentage|TemperatureData",
+         "dataValue":"89.38|8.16",
+         "plotValues":"89.38|46.688",
+         "plotLabels":"Humidity|Fahrenheit",
+         "batteryLevel":"95",
+         "signalStrength":"57",
+         "pendingChange":"True"
+      }
+   ]
+}

@@ -1,0 +1,68 @@
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:17: Keyword is already defined as case class Keyword
+[error]   case class Keyword(text: String)(val source: String, val foo: Int)
+[error]              ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:26: k1 is already defined as value k1
+[error]   val k1 = Keyword("restaurant")("storage", 1)
+[error]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:27: k2 is already defined as value k2
+[error]   val k2 = Keyword("restaurant")("web", 2)
+[error]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:21: not enough arguments for method copy: (source: String, foo: Int)com.scala.demo.caseclass.CaseClassCurring.Keyword.
+[error] Unspecified value parameter foo.
+[error]   val k2 = k1.copy()(source = "web")
+[error]                     ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassToTuple.scala:16: not found: value p
+[error]   val x: Option[(String, String, Int)] = toOptionOfTuple(p) // Some((Lacava,Alessandro,1976))
+[error]                                                          ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass.scala:12: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]       name
+[warn]       ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass.scala:16: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]       num
+[warn]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass2Demo.scala:40: personCreator is already defined as value personCreator
+[error]   val personCreator: (String, String, Int) => Person = Person.apply _
+[error]       ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/variables/VariablesDemo.scala:8: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]   p1.name                                  // String = Alvin Alexander
+[warn]      ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/variables/VariablesDemo.scala:12: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]   p2.name                                  // String = Alvin Alexander
+[warn]      ^
+[warn] four warnings found
+[error] 6 errors found
+[error] (compile:compileIncremental) Compilation failed
+[error] Total time: 19 s, completed 15 Dec, 2016 9:47:55 AM
+> runMain com.scala.demo.json.SprayJSONDemo
+[info] Compiling 93 Scala sources and 3 Java sources to /home/ravikumar/dev/HelloScala/target/scala-2.11/classes...
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:17: Keyword is already defined as case class Keyword
+[error]   case class Keyword(text: String)(val source: String, val foo: Int)
+[error]              ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:26: k1 is already defined as value k1
+[error]   val k1 = Keyword("restaurant")("storage", 1)
+[error]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:27: k2 is already defined as value k2
+[error]   val k2 = Keyword("restaurant")("web", 2)
+[error]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassCurring.scala:21: not enough arguments for method copy: (source: String, foo: Int)com.scala.demo.caseclass.CaseClassCurring.Keyword.
+[error] Unspecified value parameter foo.
+[error]   val k2 = k1.copy()(source = "web")
+[error]                     ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/CaseClassToTuple.scala:16: not found: value p
+[error]   val x: Option[(String, String, Int)] = toOptionOfTuple(p) // Some((Lacava,Alessandro,1976))
+[error]                                                          ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass.scala:12: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]       name
+[warn]       ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass.scala:16: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]       num
+[warn]       ^
+[error] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/caseclass/ClassVSCaseClass2Demo.scala:40: personCreator is already defined as value personCreator
+[error]   val personCreator: (String, String, Int) => Person = Person.apply _
+[error]       ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/variables/VariablesDemo.scala:8: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]   p1.name                                  // String = Alvin Alexander
+[warn]      ^
+[warn] /home/ravikumar/dev/HelloScala/src/main/scala/com/scala/demo/variables/VariablesDemo.scala:12: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+[warn]   p2.name                                  // String = Alvin Alexander
+[warn]      ^
